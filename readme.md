@@ -1,27 +1,27 @@
-Set FLASK_APP
+<b>Set FLASK_APP</b>
 
 The FLASK_APP environment variable is used to specify how to load the application.
 
 Unix Bash (Linux, Mac, etc.):
 
- export FLASK_APP=app.py
+export FLASK_APP=app.py
 
-Windows CMD:
+Windows CMD: 
 set FLASK_APP=app.py
 
-Windows PowerShell:
+Windows PowerShell: 
 $env:FLASK_APP = 'app.py'
 
-Add MigrationFolder
+<b>Add MigrationFolder</b>
 
- flask db init
- 
- flask db migrate
+flask db init
 
- flask db upgrade
+flask db migrate
 
- refresh the table in database you see the table there.
+flask db upgrade
 
- Run App
+refresh the table in database you see the table there.
+
+<b> Run App</b>
 
  flask run
